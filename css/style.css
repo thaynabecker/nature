@@ -1,0 +1,155 @@
+/*FORMATAÇÃO GERAL*/
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*FORMATAÇÃO TOPO*/
+
+header {
+    background-color: #3B8686;
+    padding: 30px 10vw 30px 10vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 60px 0 0 ;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+header nav a.atual {
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px 5px 15px;
+    border-radius: 17px;
+}
+header nav .atual:hover {
+    background: rgba(255,255,255,0.5);
+}
+
+/*FORMATAÇÃO BANNER*/
+
+section.banner{
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/back-banner.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 20vw 10vw 8vw 10vw;
+}
+section.banner h2{
+    color: white;
+    font-size: 3rem;
+    width: 35%;
+    background-color: rgba(59,134,134,50%);
+}
+
+/*FORMATAÇÃO SECTION ETAPAS*/
+section.etapas {
+    background-color: white;
+    margin: 0 7vw 0 7vw;
+}
+section.etapas ul {
+    display: flex;
+}
+section ul li {
+    text-align: center;
+    padding: 4vw
+}
+section.etapas ul li span {
+    color: #3B8686;
+    font-size: 3rem;
+    padding: 2vw;
+}
+section.etapas ul li h3 {
+    font-weight: bold;
+    font-size: x-large;
+}
+section.etapas ul li p {
+    color: #747474;
+    padding: 2vw;
+}
+section.etapas ul li button {
+    color: white;
+    background-color: #3B8686;
+    padding: 1vw 3vw 1vw 3vw;
+    border: none;
+}
+/*FORMATAÇÃO SECTION NUMEROS*/
+section.numeros {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/back-numeros.png) no-repeat center center;
+    background-size: 100% auto, 100% auto;
+    padding: 1vw 10vw 1vw 10vw;
+}
+section.numeros ul {
+    display: flex;
+    margin: 0 20vw 0 9vw;
+    padding: 0 3vw 0 3vw;
+    color: white;
+}
+section.numeros ul li {
+    padding: 4vw 7vw 4vw 7vw;
+}
+section.numeros ul li span {
+    font-size: 5rem;
+}
+section.numeros ul li h2 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/*FORMATAÇÃO POSSIBILIDADES*/
+
+section.possibilidades {
+    margin: 5vw 16vw 5vw 16vw;
+    display: flex;
+}
+section.possibilidades div.possibilidades {
+    padding: 0 5vw 0 0;
+}
+div.possibilidades h3 {
+    color: #0B486B;
+    font-size: 2rem;
+}
+div.possibilidades p {
+    color: #747474;
+    padding: 3vw 0 3vw 0 ;
+}
+div.possibilidades button {
+    color: white;
+    background-color: #0B486B;
+    font-size: large;
+    padding: 1vw 2vw 1vw 2vw;
+}
+/*FORMATAÇÃO FOOTER*/
+footer {
+    background-color: #3B8686;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    padding: 3vw ;
+}
+
+footer div.um {
+    margin: 0 0 0 3vw;
+}
+footer div.um span{
+    font-size: xxx-large;
+    padding: 0 0 1vw 0;
+}
+footer div.dois {
+    margin: 0 15vw 0 0;
+}
+footer div.dois span {
+    font-weight: bold;
+}
+footer div.tres ul li a{
+    padding: 0 3vw 0 0;
+}
