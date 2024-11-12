@@ -86,12 +86,12 @@ section.etapas ul li button {
 section.numeros {
     background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../src/back-numeros.png) no-repeat center center;
     background-size: 100% auto, 100% auto;
-    padding: 1vw 10vw 1vw 10vw;
+    padding: 1vw 0vw 1vw 10vw;
 }
 section.numeros ul {
     display: flex;
-    margin: 0 20vw 0 9vw;
-    padding: 0 3vw 0 3vw;
+    margin: 0;
+    padding: 0;
     color: white;
 }
 section.numeros ul li {
